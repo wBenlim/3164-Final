@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Election Dashboard</title>
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="voting_dash_test.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><i class="fas fa-vote-yea"></i> Election Dashboard</h1>
+      <p>Manage and monitor all election activities in one place</p>
+    </header>
+    
+    <div class="dashboard">
+      <div class="section">
+        <h2><i class="fas fa-clock"></i> Current Elections</h2>
+        <div class="election-item current">
+          <h3>MSA Election</h3>
+          <p class="election-date"><i class="far fa-calendar-alt"></i> October 15, 2023 - October 18, 2023</p>
+          <p>Student association election for the academic year 2023-2024</p>
+          <div class="action-buttons">
+            <button class="btn btn-view">View Details</button>
+            <button class="btn btn-results">Live Results</button>
+          </div>
+        </div>
+        
+        <div class="election-item current">
+          <h3>Club Election</h3>
+          <p class="election-date"><i class="far fa-calendar-alt"></i> October 20, 2023 - October 22, 2023</p>
+          <p>Annual club leadership election for all student organizations</p>
+          <div class="action-buttons">
+            <button class="btn btn-view">View Details</button>
+            <button class="btn btn-results">Live Results</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="section">
+        <h2><i class="fas fa-check-circle"></i> Finished Elections</h2>
+        <div class="election-item finished">
+          <h3>Club Election</h3>
+          <p class="election-date"><i class="far fa-calendar-alt"></i> September 10, 2023 - September 12, 2023</p>
+          <p>Previous club leadership election with 85% voter turnout</p>
+          <div class="action-buttons">
+            <button class="btn btn-view">View Details</button>
+            <button class="btn btn-results">Final Results</button>
+          </div>
+        </div>
+        
+        <div class="election-item finished">
+          <h3>Department Representative</h3>
+          <p class="election-date"><i class="far fa-calendar-alt"></i> August 28, 2023 - August 30, 2023</p>
+          <p>Department representative election for faculty committee</p>
+          <div class="action-buttons">
+            <button class="btn btn-view">View Details</button>
+            <button class="btn btn-results">Final Results</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="section">
+        <h2><i class="fas fa-calendar-plus"></i> Upcoming Elections</h2>
+        <div class="election-item upcoming">
+          <h3>Club Election</h3>
+          <p class="election-date"><i class="far fa-calendar-alt"></i> November 5, 2023 - November 7, 2023</p>
+          <p>Next quarter club leadership election - nominations open</p>
+          <div class="action-buttons">
+            <button class="btn btn-view">View Details</button>
+            <button class="btn btn-edit">Nominate</button>
+          </div>
+        </div>
+        
+        <div class="election-item upcoming">
+          <h3>Student Senate</h3>
+          <p class="election-date"><i class="far fa-calendar-alt"></i> December 1, 2023 - December 3, 2023</p>
+          <p>Annual student senate election for policy making body</p>
+          <div class="action-buttons">
+            <button class="btn btn-view">View Details</button>
+            <button class="btn btn-edit">Apply</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="divider"></div>
+    
+    <footer>
+      <p>Election Dashboard © 2023 | Designed for transparent election management</p>
+    </footer>
+  </div>
+
+  <!-- Load compiled TypeScript -->
+  <script src="main.js" defer></script>
+</body>
+</html>
